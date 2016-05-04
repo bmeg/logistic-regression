@@ -2,14 +2,12 @@ import pandas
 
 import unittest
 
-import sys
-sys.path.append('/Users/Jeena/src/logisticregression')
-from LogisticRegression_python import LogisticRegression
+from pythonLogisticRegression import LogisticRegression
+from testdata_pythonLogisticRegression import expected_prediction
 
 from sklearn import datasets
 from sklearn.linear_model import LogisticRegression as sklearnLR
 
-from testdata_pythonLogisticRegression import expected_prediction
 
 class LogRegTests(unittest.TestCase):
     def setUp(self):
