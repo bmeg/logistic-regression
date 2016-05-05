@@ -9,6 +9,8 @@ from sklearn import datasets
 from sklearn.linear_model import LogisticRegression as sklearnLR
 
 
+# Currently comparing the results to sklearn logistic regression model.
+
 class LogRegTests(unittest.TestCase):
     def setUp(self):
         self.iris = datasets.load_iris()
@@ -39,7 +41,12 @@ class LogRegTests(unittest.TestCase):
     
     def test_predict(self):
         self.assertEqual(self.lr.predict(self.iris_x), expected_prediction)
-        
+
+    # TODO:
+    
+    # Think about what to do with float. sklearn handles float differently.
+    # Write tests for predict_proba and decision function.
+    
 if __name__ == '__main__':
     unittest.main()
 
