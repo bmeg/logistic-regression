@@ -1,7 +1,7 @@
 # Description
 This is a Python library (work in progress) for making predictions based on existing linear models. Currently, it supports logistic regression models that predict binary states.
 
-# Installing
+# Install
 `pip install git+https://github.com/bmeg/make_prediction.git`
 
 # Usage
