@@ -18,7 +18,7 @@ prediction = logistic_model(data)
 #### test
 - write test for logistic regression `predict_proba`
 - write test for logistic regression `decision_function`
-- set up Travis-CI
+- ~~set up Travis-CI~~
 
 #### src
 - write `log_proba` function
