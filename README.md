@@ -1,3 +1,4 @@
+![build-status](https://travis-ci.org/bmeg/make_prediction.svg)
 # Description
 This is a Python library (work in progress) for making predictions based on existing linear models. Currently, it supports logistic regression models that predict binary states.
 
